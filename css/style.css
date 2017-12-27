@@ -1,0 +1,116 @@
+﻿@font-face {
+    font-family: creamsandcones;
+    src: url(../fonts/Great-Mischief.woff);}
+@font-face {
+    font-family: menu;
+    src: url(../fonts/Corn.woff);}
+/*
+Bounce effect I grabbed from
+codepad.co/snippet/AYXI3hjg
+*/
+.downArrow{
+	position: fixed;
+	bottom: 45%;
+	left: 50%;
+}
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+/*End of Bounce*/
+
+body {font-family: menu, sans-serif;}
+#about h1,#menu h1,#projects h1,#order h1,h2,div.w3-top div.w3-bar a.w3-button {
+    font-family: creamsandcones,"Playfair Display";
+	color: #b2a2c7; /*lavendar*/
+	font-weight: bolder;
+	letter-spacing: 0px;}
+h3,h4,h5,h6 {
+	font-family: menu;
+	color: #b2a2c7; /*lavendar*/
+	font-weight: bolder;}
+.num {font-family: 'Arima Madurai', cursive; font-size: medium; font-weight: 700;}
+span.headerNum {font-family: 'Arima Madurai', cursive; font-size: larger; font-weight: 1000;}
+
+img.mySlides{width: 100%}
+
+header.w3-display-container, header.w3-display-container div {max-width:2880px;}
+
+div#menu div ul {list-style: none; text-align: center; margin-left: -4%; margin-right: auto}
+
+div.hide {display: none; visibility: hidden;}
+
+img#logo, div#projects h1, div#menu h1, div#order h1{margin-left: auto; margin-right: auto; text-align: center}
+textarea {overflow: auto;}
+div:focus {outline-color: #fff;}
+
+p {text-align: justify;}
+
+@media only screen and (max-width: 768px) {
+	[rows="2"]{height: 100px;}}
+
+@media only screen and (max-width: 505px) {
+	#logoButton.w3-button {padding: 0;}
+	img.mySlides{margin-top: 67px; width: 100%}
+	div.w3-padding-32, div.w3-padding-large { padding-top: 0!important; padding-bottom: 0!important;}}
+
+@media only screen and (max-width: 414px) {
+	[rows="2"]{height: 135px;}
+}
+
+@media only screen and (max-width: 375px) {
+	[rows="2"]{height: 160px;}
+}
+
+@media only screen and (max-width: 320px) {
+	[rows="2"]{height: 185px;}
+}

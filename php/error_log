@@ -1,0 +1,3 @@
+[04-Nov-2017 11:38:48 UTC] PHP Notice:  Undefined offset: 0 in /home/w9u20lf1w2fj/public_html/test/php/mailer.php on line 40
+[04-Nov-2017 11:54:25 UTC] PHP Warning:  parse_str() expects parameter 1 to be string, array given in /home/w9u20lf1w2fj/public_html/test/php/mailer.php on line 33
+[04-Nov-2017 12:25:16 UTC] PHP Warning:  parse_str() expects parameter 1 to be string, array given in /home/w9u20lf1w2fj/public_html/test/php/mailer.php on line 33
